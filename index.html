@@ -113,29 +113,27 @@
 
     <!--Contact-->
     <section class="contact" id="contact">
+        <h2 class="h">Contact <span> Me</span></h2>
 
-            <h2 class="h">Contact <span>Me</span></h2>
-            <form action="#">
-
+            <form id="contact-form">
                 <div class="text-box"> 
-                    <input type="text" placeholder="Enter Your FullName">
-                    <input type="text" placeholder="Enter Your Email">
-                </div>
-
-
-                <div class="text-box">
-                    <input type="text" placeholder="05xxx">
+                    <input type="text" id="fullName" placeholder="Enter Your Full Name">
+                     <input type="text" id="email" placeholder="Enter Your Email">
                 </div>
 
                 <div class="text-box">
-                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter Message"></textarea>
-                    
+                    <input type="text" id="phone" placeholder="05xxx">
                 </div>
+
+                <div class="text-box">
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                </div>
+
+                <p id="form-feedback"></p>
 
                 <div class="text-box">
                     <input type="submit" value="Send Message" class="btn">
                 </div>
-
             </form>
     </section>
 
